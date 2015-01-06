@@ -11,10 +11,7 @@
 @implementation Gameplay{
     CCPhysicsNode *_physicsNode;
     CCNode *_catapultArm;
-    
-    
 }
-
 
 - (void)didLoadFromCCB {
     // tell this scene to accept touches
@@ -23,7 +20,6 @@
 
 -(void)touchBegan:(CCTouch *)touch withEvent:(CCTouchEvent *)event{
     [self launchPenguin];
-    
 }
 
 -(void)launchPenguin{
