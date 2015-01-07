@@ -10,7 +10,7 @@
 		<false/>
 	</dict>
 	<key>UUID</key>
-	<integer>8</integer>
+	<integer>7</integer>
 	<key>centeredOrigin</key>
 	<false/>
 	<key>currentResolution</key>
@@ -179,7 +179,7 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>81.000015258789062</real>
+							<real>79</real>
 							<real>87</real>
 							<integer>0</integer>
 							<integer>0</integer>
@@ -211,7 +211,7 @@
 			</dict>
 			<dict>
 				<key>UUID</key>
-				<integer>5</integer>
+				<integer>3</integer>
 				<key>baseClass</key>
 				<string>CCSprite</string>
 				<key>children</key>
@@ -221,7 +221,7 @@
 				<key>displayName</key>
 				<string>catapultarm</string>
 				<key>memberVarAssignmentName</key>
-				<string>_catapultArm</string>
+				<string></string>
 				<key>memberVarAssignmentType</key>
 				<integer>1</integer>
 				<key>properties</key>
@@ -241,8 +241,8 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>230</real>
-							<real>180</real>
+							<real>247</real>
+							<real>194</real>
 							<integer>0</integer>
 							<integer>0</integer>
 							<integer>0</integer>
@@ -316,6 +316,8 @@
 						<array/>
 					</dict>
 				</array>
+				<key>selected</key>
+				<true/>
 			</dict>
 			<dict>
 				<key>UUID</key>
@@ -349,8 +351,8 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>244</real>
-							<real>81</real>
+							<real>258</real>
+							<real>94</real>
 							<integer>0</integer>
 							<integer>0</integer>
 							<integer>0</integer>
@@ -434,87 +436,7 @@
 				<array>
 					<dict>
 						<key>UUID</key>
-						<integer>7</integer>
-						<key>baseClass</key>
-						<string>CCNode</string>
-						<key>children</key>
-						<array/>
-						<key>customClass</key>
-						<string></string>
-						<key>displayName</key>
-						<string>CCNode</string>
-						<key>memberVarAssignmentName</key>
-						<string>_levelNode</string>
-						<key>memberVarAssignmentType</key>
-						<integer>1</integer>
-						<key>properties</key>
-						<array>
-							<dict>
-								<key>name</key>
-								<string>name</string>
-								<key>type</key>
-								<string>StringSimple</string>
-								<key>value</key>
-								<string></string>
-							</dict>
-							<dict>
-								<key>name</key>
-								<string>position</string>
-								<key>type</key>
-								<string>Position</string>
-								<key>value</key>
-								<array>
-									<real>469</real>
-									<real>47</real>
-									<integer>0</integer>
-									<integer>0</integer>
-									<integer>0</integer>
-								</array>
-							</dict>
-							<dict>
-								<key>name</key>
-								<string>contentSize</string>
-								<key>type</key>
-								<string>Size</string>
-								<key>value</key>
-								<array>
-									<real>490</real>
-									<real>275</real>
-									<integer>0</integer>
-									<integer>0</integer>
-								</array>
-							</dict>
-							<dict>
-								<key>name</key>
-								<string>anchorPoint</string>
-								<key>type</key>
-								<string>Point</string>
-								<key>value</key>
-								<array>
-									<real>0.0</real>
-									<real>0.0</real>
-								</array>
-							</dict>
-							<dict>
-								<key>name</key>
-								<string>scale</string>
-								<key>type</key>
-								<string>ScaleLock</string>
-								<key>value</key>
-								<array>
-									<real>1</real>
-									<real>1</real>
-									<false/>
-									<integer>0</integer>
-								</array>
-							</dict>
-						</array>
-						<key>selected</key>
-						<true/>
-					</dict>
-					<dict>
-						<key>UUID</key>
-						<integer>3</integer>
+						<integer>5</integer>
 						<key>baseClass</key>
 						<string>CCSprite</string>
 						<key>children</key>
@@ -527,79 +449,6 @@
 						<string></string>
 						<key>memberVarAssignmentType</key>
 						<integer>1</integer>
-						<key>physicsBody</key>
-						<dict>
-							<key>affectedByGravity</key>
-							<true/>
-							<key>allowsRotation</key>
-							<true/>
-							<key>bodyShape</key>
-							<integer>0</integer>
-							<key>collisionCategories</key>
-							<array/>
-							<key>collisionMask</key>
-							<array/>
-							<key>collisionType</key>
-							<string></string>
-							<key>cornerRadius</key>
-							<real>0.0</real>
-							<key>density</key>
-							<real>1</real>
-							<key>dynamic</key>
-							<false/>
-							<key>elasticity</key>
-							<real>0.30000001192092896</real>
-							<key>friction</key>
-							<real>0.30000001192092896</real>
-							<key>points</key>
-							<array>
-								<array>
-									<real>0.0</real>
-									<real>0.0</real>
-								</array>
-								<array>
-									<real>0.203125</real>
-									<real>44.37890625</real>
-								</array>
-								<array>
-									<real>959.5546875</real>
-									<real>44.1015625</real>
-								</array>
-								<array>
-									<real>958.81640625</real>
-									<real>45.2265625</real>
-								</array>
-								<array>
-									<real>960</real>
-									<real>0.0</real>
-								</array>
-							</array>
-							<key>polygons</key>
-							<array>
-								<array>
-									<array>
-										<real>0.0</real>
-										<real>0.0</real>
-									</array>
-									<array>
-										<real>960</real>
-										<real>0.0</real>
-									</array>
-									<array>
-										<real>959.5546875</real>
-										<real>44.1015625</real>
-									</array>
-									<array>
-										<real>958.81640625</real>
-										<real>45.2265625</real>
-									</array>
-									<array>
-										<real>0.203125</real>
-										<real>44.37890625</real>
-									</array>
-								</array>
-							</array>
-						</dict>
 						<key>properties</key>
 						<array>
 							<dict>
@@ -824,8 +673,8 @@
 				<string>Size</string>
 				<key>value</key>
 				<array>
-					<real>568</real>
-					<real>384</real>
+					<real>960</real>
+					<real>320</real>
 					<integer>0</integer>
 					<integer>0</integer>
 				</array>
@@ -866,13 +715,13 @@
 			<key>ext</key>
 			<string>phone</string>
 			<key>height</key>
-			<integer>384</integer>
+			<integer>320</integer>
 			<key>name</key>
 			<string>Phone</string>
 			<key>scale</key>
 			<real>1</real>
 			<key>width</key>
-			<integer>568</integer>
+			<integer>960</integer>
 		</dict>
 		<dict>
 			<key>centeredOrigin</key>
@@ -880,13 +729,13 @@
 			<key>ext</key>
 			<string>tablet phonehd</string>
 			<key>height</key>
-			<integer>384</integer>
+			<integer>320</integer>
 			<key>name</key>
 			<string>Tablet</string>
 			<key>scale</key>
 			<real>2</real>
 			<key>width</key>
-			<integer>568</integer>
+			<integer>960</integer>
 		</dict>
 	</array>
 	<key>sequences</key>
@@ -914,7 +763,7 @@
 			<key>resolution</key>
 			<real>30</real>
 			<key>scale</key>
-			<real>118.25</real>
+			<real>128</real>
 			<key>sequenceId</key>
 			<integer>0</integer>
 			<key>soundChannel</key>
