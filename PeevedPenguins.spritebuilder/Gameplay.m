@@ -41,4 +41,7 @@
     [self runAction:follow];
 }
 
+-(void)replay{
+    [[CCDirector sharedDirector] replaceScene: [CCBReader loadAsScene:@"Gameplay"]];
+}
 @end
