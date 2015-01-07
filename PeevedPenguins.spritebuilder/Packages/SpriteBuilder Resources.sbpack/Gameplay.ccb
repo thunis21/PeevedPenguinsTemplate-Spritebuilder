@@ -923,7 +923,7 @@
 						<string>Block</string>
 						<key>value</key>
 						<array>
-							<string>retry</string>
+							<string>replay</string>
 							<integer>1</integer>
 						</array>
 					</dict>
@@ -1178,6 +1178,8 @@
 						</array>
 					</dict>
 				</array>
+				<key>selected</key>
+				<true/>
 			</dict>
 		</array>
 		<key>customClass</key>
