@@ -22,14 +22,21 @@
     
 }
 
+-(void)ccPhysicsCollisionPostSolve:(CCPhysicsCollisionPair *)pair seal:(CCNode *)nodeA wildcard:(CCNode *)nodeB
+{
+    CCLOG(@"Something collided with a seal!");
+}
+
 - (void)didLoadFromCCB {
     // tell this scene to accept touches
     self.userInteractionEnabled = TRUE;
     CCScene *level=[CCBReader loadAsScene:@"Levels/Level1"];
     [_levelNode addChild:level];
-    _physicsNode.debugDraw = TRUE;
+  //  _physicsNode.debugDraw = TRUE;
     _pullbackNode.physicsBody.collisionMask = @[];
     _mouseJointNode.physicsBody.collisionMask = @[];
+    
+    _physicsNode.collisionDelegate=self;
 }
 
 -(void)touchBegan:(CCTouch *)touch withEvent:(CCTouchEvent *)event{
